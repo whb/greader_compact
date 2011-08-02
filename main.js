@@ -72,19 +72,12 @@ function autoRun() {
 			addSwitchButton();
 			// search box event
 			eId("search-input").addEventListener("click",function(){
-				cssClassOps("add", byId("search"), "on", null);
+				cssClassOps("add", eId("search"), "on", null);
 			},false);
 			eId("main").addEventListener("click",function(){
-				cssClassOps("remove", byId("search"), "on", null);
+				cssClassOps("remove", eId("search"), "on", null);
 			},false);
-			// egg
-			var acc = eId('guser').getElementsByClassName('gb4')[0].innerText;
-			if( acc == "amio.cx@gmail.com"){
-				document.body.style.fontFamily = "verdana";
-			}else if( acc == "myth.mio@gmail.com"){
-				document.body.style.fontFamily = "verdana";
-				acc.innerText += " (4Miu!)";
-			}
+
 			clearInterval(intervalID);
 		}
 	}
