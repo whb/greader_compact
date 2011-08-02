@@ -70,14 +70,7 @@ function autoRun() {
 		cssClassOps("add", document.body, "compactON", null);
 		if (eId("nav") && eId("chrome-title")) {
 			addSwitchButton();
-			// search box event
-			eId("search-input").addEventListener("click",function(){
-				cssClassOps("add", eId("search"), "on", null);
-			},false);
-			eId("main").addEventListener("click",function(){
-				cssClassOps("remove", eId("search"), "on", null);
-			},false);
-
+			
 			clearInterval(intervalID);
 		}
 	}

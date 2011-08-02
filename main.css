@@ -22,30 +22,6 @@
 .compactOFF #top-bar  { display: block !important }
 
 
-.compactON #search { width: 126px; background-color: #C2CFF1; top: 1px !important; right: 180px; padding: 2px !important }
-.compactON #search #search-submit { display: none }
-.compactON #search.on { width: 310px; right: 20px }
-.compactON #search-input { padding: 1px 2px !important; line-height: 16px !important; height: 16px !important; width: 120px !important  }
-.compactON #search-restrict, .compactON #search-submit { display: none }
-.compactON #search.on #search-restrict, .compactON #search.on #search-submit { display: block }
-
-.compactON #viewer-header { position: absolute !important; top: 0; white-space: nowrap; width: 640px }
-.compactON.lhn-hidden #viewer-header { margin-left: 90px !important }
-.compactON #logo-container { display: none !important }
-.compactON #viewer-top-controls { padding: 4px !important; height: 18px !important; background-color: #C2CFF1 !important; border-bottom: none !important }
-.compactON #viewer-all-new-links, #viewer-details-toggle { line-height: 18px !important; float: left !important }
-.compactON #viewer-details { border-right: 1px solid #C2CFF1 }
-
-/*.compactON #chrome-title a { display: inline-block; position: relative; top: 0; width: 15px; height: 15px; color: #C2CFF1 !important }*/
-/*.compactON #chrome-title a span { position: absolute; top: 0; left: 0 }*/
-
-.compactOFF #main { top: 65px !important; background-color: #FFF }
-.compactOFF #search { top: 33px !important; left: 156px !important; right: auto !important }
-
-/*compact setting page*/
-.compactOFF #settings-frame { top: 65px !important; background-color: #FFF }
-.compactON #settings-frame { top: 0 !important; background-color: #FFF }
-
 /*switch button*/
 #compactButton { display: block; position: absolute; top: 4px; right: 5px; height: 15px; width: 15px; z-index: 999; cursor: pointer }
 #compactButton { border: 1px solid #6694E3 }
