@@ -22,6 +22,17 @@
 .compactOFF #top-bar  { display: block !important }
 
 
+.compactON #viewer-header { position: absolute !important; top: 0; white-space: nowrap; width: 640px }
+.compactON.lhn-hidden #viewer-header { margin-left: 90px !important }
+
+.compactON #viewer-top-controls { padding: 4px !important; height: 18px !important; background-color: #C2CFF1 !important; border-bottom: none !important }
+.compactON #viewer-all-new-links, #viewer-details-toggle { line-height: 18px !important; float: left !important }
+.compactON #viewer-details { border-right: 1px solid #C2CFF1 }
+
+/*compact setting page*/
+.compactOFF #settings-frame { top: 65px !important; background-color: #FFF }
+.compactON #settings-frame { top: 0 !important; background-color: #FFF }
+
 /*switch button*/
 #compactButton { display: block; position: absolute; top: 4px; right: 5px; height: 15px; width: 15px; z-index: 999; cursor: pointer }
 #compactButton { border: 1px solid #6694E3 }
