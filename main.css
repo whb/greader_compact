@@ -1,0 +1,55 @@
+/*
+** Google Reader Compact
+**
+** Author........ : amio
+** Created....... : Dec 16th, 2009
+** Updated....... : Jul 27th, 2010
+** Website....... : http://blog.airmio.com/
+**
+*/
+
+/*compact*/
+#main { top: 0 !important; background-color: #FFF }
+#viewer-footer { display: none !important }
+#search { left: auto !important; right: 0 }
+#chrome-header { height: 16px; padding: 5px 8px !important }
+#chrome-lhn-menu { margin-top: -2px !important }
+#chrome-title { line-height: 15px !important }
+#chrome-view-links { margin-right: 20px !important }
+
+.compactON #search { width: 190px; background-color: #C2CFF1; top: 1px !important; right: 180px; padding: 2px !important }
+.compactON #search #search-submit { display: none }
+.compactON #search.on { width: 350px; right: 20px }
+.compactON #search-input { padding: 1px 2px !important; line-height: 16px !important; height: 16px !important; width: 120px !important  }
+.compactON #search-restrict, .compactON #search-submit { display: none }
+.compactON #search.on #search-restrict, .compactON #search.on #search-submit { display: block }
+
+.compactON #viewer-header { position: absolute !important; top: 0; white-space: nowrap; width: 640px }
+.compactON.lhn-hidden #viewer-header { margin-left: 90px !important }
+.compactON #chrome-title { display: none !important }
+.compactON #viewer-top-controls { padding: 4px !important; height: 18px !important; background-color: #C2CFF1 !important; border-bottom: none !important }
+.compactON #viewer-all-new-links, #viewer-details-toggle { line-height: 18px !important; float: left !important }
+.compactON #viewer-details { border-right: 1px solid #C2CFF1 }
+
+/*.compactON #chrome-title a { display: inline-block; position: relative; top: 0; width: 15px; height: 15px; color: #C2CFF1 !important }*/
+/*.compactON #chrome-title a span { position: absolute; top: 0; left: 0 }*/
+
+.compactOFF #main { top: 65px !important; background-color: #FFF }
+.compactOFF #search { top: 33px !important; left: 156px !important; right: auto !important }
+
+/*compact setting page*/
+.compactOFF #settings-frame { top: 65px !important; background-color: #FFF }
+.compactON #settings-frame { top: 0 !important; background-color: #FFF }
+
+/*switch button*/
+#compactButton { display: block; position: absolute; top: 4px; right: 5px; height: 15px; width: 15px; z-index: 999; cursor: pointer }
+#compactButton { border: 1px solid #6694E3 }
+#compactButton p { background-color: #6694E3; height: 7px }
+.compactON  #compactButton p { margin: 0 }
+.compactOFF  #compactButton p { margin: 1px }
+
+/*display area optimize*/
+#search div.search-restrict-contents { padding: 1px !important }
+#search div.search-restrict-contents input { border-width: 0 !important }
+#show-new { cursor: pointer }
+.entry .entry-body { max-width: 999px !important }

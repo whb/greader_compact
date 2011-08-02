@@ -1,0 +1,13 @@
+{
+   "content_scripts": [ {
+      "all_frames": false,
+      "css": [ "main.css" ],
+      "js": [ "main.js" ],
+      "matches": [ "http://www.google.com/reader/*", "https://www.google.com/reader/*", "http://www.google.co.uk/reader/*", "https://www.google.co.uk/reader/*" ]
+   } ],
+   "description": "We want more reading area, with all Reader feature still available on one click.",
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDnpl0Ke2tBjACpg8OtvJ+DSuPUMM1b/pLHYXvJBhjb2jPwsbb7usn0ExV4tJqXZUFXTKhm3KPI4jVj17X/MKr8LKrAusitCMjNd9fMYcqDPKDrEWpgudZ91iIDsyiwzdMV1BWUu1KhqQ6h9928wj6aiEvm6GLOE3h54qnrFbzAKwIDAQAB",
+   "name": "Google Reader Compact",
+   "update_url": "http://clients2.google.com/service/update2/crx",
+   "version": "1.3.3"
+}
