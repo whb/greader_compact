@@ -18,6 +18,9 @@
 #chrome-view-links { margin-right: 20px !important }
 
 #top-bar  { display: none !important }
+.compactON #top-bar  { display: none !important }
+.compactOFF #top-bar  { display: block !important }
+
 
 .compactON #search { width: 126px; background-color: #C2CFF1; top: 1px !important; right: 180px; padding: 2px !important }
 .compactON #search #search-submit { display: none }
