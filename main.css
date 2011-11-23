@@ -21,6 +21,9 @@
 .compactON #top-bar  { display: none !important }
 .compactOFF #top-bar  { display: block !important }
 
+/*add viewer-header-container compact*/
+.compactOFF #viewer-header-container {border-bottom: 1px solid #EBEBEB;}
+.compactON #viewer-header-container  { display: none !important  }
 
 .compactON #viewer-header { position: absolute !important; top: 0; white-space: nowrap; width: 640px }
 .compactON.lhn-hidden #viewer-header { margin-left: 90px !important }
