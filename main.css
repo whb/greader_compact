@@ -21,6 +21,10 @@
 .compactON #top-bar  { display: none !important }
 .compactOFF #top-bar  { display: block !important }
 
+#gb  { display: none !important }
+.compactON #gb  { display: none !important }
+.compactOFF #gb  { display: block !important }
+
 /*add viewer-header-container compact*/
 .compactOFF #viewer-header-container {border-bottom: 1px solid #EBEBEB;}
 .compactON #viewer-header-container  { display: none !important  }
