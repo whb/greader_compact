@@ -9,21 +9,11 @@
 */
 
 /*compact*/
-#main { top: 0 !important; background-color: #FFF }
-#viewer-footer { display: none !important }
-#search { left: auto !important; right: 0 }
-#chrome-header { height: 16px; padding: 5px 8px !important }
-#chrome-lhn-menu { margin-top: -2px !important }
-#chrome-title { line-height: 15px !important }
-#chrome-view-links { margin-right: 20px !important }
-
+#main { float: left !important; top: 0 !important;background-color: #FFF }
 #top-bar  { display: none !important }
+
 .compactON #top-bar  { display: none !important }
 .compactOFF #top-bar  { display: block !important }
-
-#gb  { display: none !important }
-.compactON #gb  { display: none !important }
-.compactOFF #gb  { display: block !important }
 
 /*add viewer-header-container compact*/
 .compactOFF #viewer-header-container {border-bottom: 1px solid #EBEBEB;}
