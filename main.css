@@ -9,7 +9,7 @@
 */
 
 /*compact*/
-#main { float: left !important; top: 0 !important;background-color: #FFF }
+#main { clear: left; top: 0 !important;background-color: #FFF }
 #top-bar  { display: none !important }
 
 .compactON #top-bar  { display: none !important }
